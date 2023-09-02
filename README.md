@@ -46,3 +46,20 @@ yc compute instance create \
   --metadata serial-port-enable=1 \
   --metadata-from-file user-data=startup-script.yaml
 
+Выполнено Д3 №5
+
+Установелен packer
+Создан сервисный аккаунт yc
+Инициализировали плагин yandex для работы packer
+Собрали образы с помощью packer
+Запустили инстанст виртуальной машины, используя ранее созданный образ
+Задеплоили приложение, проверили работоспособность
+Произвели параметризацию шаблона
+Построен bake-образ
+Автоматизация создания ВМ
+
+запустить из директории packer: packer build -only '*ubuntu16' .
+запустить из директории packer: packer build -only 'ubuntu16v2' .
+config-scripts/create-reddit-vm.sh
+
+http://51.250.72.214:9292/
