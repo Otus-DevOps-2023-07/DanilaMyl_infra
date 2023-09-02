@@ -1,12 +1,5 @@
-variable "service_account_key_file" {
-  type    = string
-  default = "./key.json"
-}
-variable "folder_id" {
-  type    = string
-  default = "b1g2a5mhs8gsj54emue5"
-}
-variable "source_image_family" {
-  type    = string
-  default = "ubuntu-1604-lts"
+{
+   "service_account_key_file": "key.json",
+   "folder_id"               : "folder",
+   "source_image_family"     : "ubuntu-1604-lts",
 }
