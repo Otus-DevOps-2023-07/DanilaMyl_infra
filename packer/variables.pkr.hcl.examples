@@ -1,11 +1,24 @@
+variable "source_image_family" {
+  type = string
+  default = "ubuntu-1604-lts"
+}
+
 variable "service_account_key_file" {
   type = string
+  default = "~/fck/key.json"
+}
+
+variable "image-id {
+  type = string
+  default = "fd87s0kpmdh4ief69665"
 }
 
 variable "folder_id" {
   type = string
+  default = "b1g2a5mhs8gsj54emue5"
 }
 
-variable "source_image_family" {
+variable "zone" {
   type = string
+  default = "ru-central1-a"
 }
