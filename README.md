@@ -61,5 +61,3 @@ yc compute instance create \
 запустить из директории packer: packer build -only '*ubuntu16' .
 запустить из директории packer: packer build -only 'ubuntu16v2' .
 config-scripts/create-reddit-vm.sh
-
-http://51.250.72.214:9292/
