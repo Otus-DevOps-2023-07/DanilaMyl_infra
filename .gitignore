@@ -1,9 +1,14 @@
 
-packer/variables.pkr.hcl
-packer/variables.auto.pkrvars.hcl
+variables.pkr.hcl
+variables.json
 
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
 *.tfvars
 .terraform/
+
+terraform.tfvars
+.terraform.lock.hcl
+
+config.tf
