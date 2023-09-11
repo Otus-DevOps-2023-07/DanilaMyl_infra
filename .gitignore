@@ -6,5 +6,4 @@ packer/variables.json
 *.tfvars
 .terraform/
 .terraform.lock.hcl
-
 config.tf
