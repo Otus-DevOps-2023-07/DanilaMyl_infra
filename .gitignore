@@ -6,5 +6,3 @@ packer/variables.json
 *.tfvars
 .terraform/
 config.tf
-
-!terraform.example.tfvars
