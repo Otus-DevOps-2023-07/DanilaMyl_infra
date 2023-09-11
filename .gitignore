@@ -4,4 +4,5 @@ packer/variables.json
 *.tfstate.*.backup
 *.tfvars 
 key.json
-.terraform
+.terraform/
+.terraform.lock.hcl
